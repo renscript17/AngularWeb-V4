@@ -1,0 +1,24 @@
+﻿
+<style type="text/css">
+    .chart {
+     /*width: 500px; */
+     width: 80%;
+     height: 500px;
+    }
+</style>
+
+<div ng-app="app">
+    <div class="container-fluid" ng-controller="chartController">
+        <article class="col-lg-8 col-lg-offset-1 col-sm-7 col-sm-offset-1 col-lg-push-3 col-sm-push-4 ">
+
+            <!--<div class="col-lg col-xs-7">-->
+                <div google-chart chart="chart" style="{{cssStyle}}" on-ready="chartReady()"></div>
+                <!-- explicit close of tag seems to be necessary -->
+            <!--</div>-->
+
+        </article>
+        <aside class="col-lg-3 col-sm-4 col-lg-pull-9 col-sm-pull-8">
+            <h1>Side bar</h1>
+        </aside>
+    </div>
+</div>

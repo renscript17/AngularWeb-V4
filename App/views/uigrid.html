@@ -1,0 +1,37 @@
+﻿
+<style type="text/css">
+    .grid {
+        width: 600px;
+        height: 450px;
+    }
+</style>
+
+
+    
+<div class="container-fluid" ng-controller="uigridController">
+        
+    <article class="col-lg-8 col-lg-offset-1 col-sm-7 col-sm-offset-1 col-lg-push-3 col-sm-push-4 ">
+
+        <strong>Data Length:</strong> {{ gridOptions.data.length | number }}
+        <br>
+        <strong>Last Cell Edited:</strong> {{msg.lastCellEdited}}
+        <br>
+        <div ui-grid="gridOptions" ui-grid-edit class="grid"></div>
+
+    </article>
+        
+    <aside class="col-lg-3 col-sm-4 col-lg-pull-9 col-sm-pull-8">
+
+        <h1>Navigation</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates tempore ipsa ex. Ullam quam alias voluptates ipsa, libero sit non dolores, eligendi facere soluta quasi voluptate eum pariatur veniam modi?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates tempore ipsa ex. Ullam quam alias voluptates ipsa, libero sit non dolores, eligendi facere soluta quasi voluptate eum pariatur veniam modi?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates tempore ipsa ex. Ullam quam alias voluptates ipsa, libero sit non dolores, eligendi facere soluta quasi voluptate eum pariatur veniam modi?</p>
+    </aside>
+
+</div>
+
+
+
+
+

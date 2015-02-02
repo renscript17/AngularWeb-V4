@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta name="keywords" content="angularjs,SPA,Single Page Application,refresh tokens,authentication,bearer token authentication,OWIN,bootstrap,bootstrap ui,tutorial,JS framework,ASP.NET WEB API 2,Taiseer Joudeh" />
+    <meta name="description" content="SPA built using angularjs,authentication is done using bearer token,back end built using Asp.net web api 2 and OWIN Framework,creatd by Taiseer Joudeh" />
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+    <title>AngularJS Authentication</title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/site.css" rel="stylesheet" />
+    <link href="../Content/loading-bar.css" rel="stylesheet" />
+    <link href="../Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="../Content/social-buttons.css" rel="stylesheet" />
+    <link href="../Content/ng-grid.css" rel="stylesheet" />
+    <link href="../Content/ui-grid-unstable.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+   
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="btn btn-success navbar-toggle">
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+                <a class="navbar-brand" href="#/">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" >
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#/grid">Grid</a></li>-->
+                    
+                    <!--<li><a href="#/uigrid">UIGrid</a></li>-->
+                    <li><a href="#/">Welcome <!--{{authentication.userName}}--></a></li>
+                    
+                    <!--<li><a href="#/basics">Basics</a></li>
+                    <li><a href="#/select">Select</a></li>
+                    <li><a href="#/formSubmission">formSubmission</a></li>-->
+                    <li><a href="#/uigridcrud">UIGrid</a></li>
+                    <li><a href="#/chart">Chart</a></li>
+
+                    <li><a href="#/about">About</a></li>
+                  
+                    <!--<li><a href="#/kendoweb">Kendo web</a></li>-->
+                    <!--<li data-ng-hide="!authentication.isAuth"><a href="#/orders">My Orders</a></li>
+                        <li data-ng-hide="!authentication.isAuth"><a href="#/refresh">Refresh Token</a></li>
+                        <li data-ng-hide="!authentication.isAuth"><a href="" data-ng-click="logOut()">Logout</a></li>
+                        <li data-ng-hide="authentication.isAuth"> <a href="#/login">Login</a></li>
+                        <li data-ng-hide="authentication.isAuth"> <a href="#/signup">Sign Up</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="page-header text-center">
+                <h3>Freelance AngularJS webapp</h3>
+            </div>
+            <!--<p>AngularJS Application which uses OAuth Bearer Token for authentication and implements Refresh Tokens. The backend API is built using ASP.NET Web API 2, OWIN middleware, and ASP.NET Identity.</p>-->
+        </div>
+    </div>    
+    <!--<div ng-controller="mainController">-->
+        <!--<h1>{{message}}</h1>-->
+        <div ng-view>
+        </div>
+    <!--</div>-->
+    <hr />
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-muted">Created by:</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-muted"><a target="_blank" href="http://bitoftech.net">bitoftech.net</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- 3rd party libraries -->
+    <script src="../Scripts/jquery-1.9.0.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/angular-animate.js"></script>
+    <script src="../Scripts/angular-resource.js"></script>
+    <script src="../Scripts/angular-route.js"></script>
+    <!--<script src="../Scripts/angular-sanitize.js"></script>-->
+    <script src="../Scripts/angular-touch.js"></script>
+
+    <script src="../Scripts/ng-grid.js"></script>
+    <script src="../Scripts/ui-grid-unstable.js"></script>
+    <script src="../Scripts/ng-google-chart.js"></script>
+
+    <!--<script src="../Scripts/loading-bar.min.js"></script>-->
+
+    <!-- Load app main script -->
+    <script src="app.js"></script>
+    <!-- Load services -->
+    <!-- Load controllers -->
+    <script src="controllers/gridController.js"></script>
+    <script src="controllers/homeController.js"></script>
+    <script src="controllers/aboutController.js"></script>
+    <script src="controllers/uigridController.js"></script>
+    <script src="controllers/uigridcrudController.js"></script>
+    <script src="controllers/chartController.js"></script>
+
+    <script src="controllers/basicsController.js"></script>
+    <script src="controllers/selectController.js"></script>
+    <script src="controllers/formSubmissionController.js"></script>
+
+    <!-- Load custom filters -->
+    <!-- Load custom directives -->
+
+</body>
+</html>

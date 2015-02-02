@@ -1,0 +1,24 @@
+C:\Users\Reynald\Documents\Visual Studio 2013\Projects\AngularWeb\AngularWeb\bin\AngularWeb.dll.config
+C:\Users\Reynald\Documents\Visual Studio 2013\Projects\AngularWeb\AngularWeb\bin\AngularWeb.dll
+C:\Users\Reynald\Documents\Visual Studio 2013\Projects\AngularWeb\AngularWeb\bin\AngularWeb.pdb
+C:\Users\Reynald\Documents\Visual Studio 2013\Projects\AngularWeb\AngularWeb\obj\Debug\AngularWeb.dll
+C:\Users\Reynald\Documents\Visual Studio 2013\Projects\AngularWeb\AngularWeb\obj\Debug\AngularWeb.pdb
+C:\Users\Reynald\Documents\Visual Studio 2013\Projects\AngularWeb\AngularWeb\obj\Debug\AngularWeb.csprojResolveAssemblyReference.cache
+C:\Users\Reynald\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\bin\AngularWeb.dll.config
+C:\Users\Reynald\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\bin\AngularWeb.dll
+C:\Users\Reynald\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\bin\AngularWeb.pdb
+C:\Users\Reynald\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\obj\Debug\AngularWeb.dll
+C:\Users\Reynald\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\obj\Debug\AngularWeb.pdb
+C:\Users\Reynald\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\obj\Debug\AngularWeb.csprojResolveAssemblyReference.cache
+C:\Users\rEnZ\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\bin\AngularWeb.dll.config
+C:\Users\rEnZ\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\bin\AngularWeb.dll
+C:\Users\rEnZ\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\bin\AngularWeb.pdb
+C:\Users\rEnZ\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\obj\Debug\AngularWeb.csprojResolveAssemblyReference.cache
+C:\Users\rEnZ\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\obj\Debug\AngularWeb.dll
+C:\Users\rEnZ\Documents\net projects\MVC5 recodes\AngularWeb\AngularWeb\obj\Debug\AngularWeb.pdb
+F:\rlawrence\codeprojects\AngularWeb\AngularWeb\bin\AngularWeb.dll.config
+F:\rlawrence\codeprojects\AngularWeb\AngularWeb\bin\AngularWeb.dll
+F:\rlawrence\codeprojects\AngularWeb\AngularWeb\bin\AngularWeb.pdb
+F:\rlawrence\codeprojects\AngularWeb\AngularWeb\obj\Debug\AngularWeb.dll
+F:\rlawrence\codeprojects\AngularWeb\AngularWeb\obj\Debug\AngularWeb.pdb
+F:\rlawrence\codeprojects\AngularWeb\AngularWeb\obj\Debug\AngularWeb.csprojResolveAssemblyReference.cache

@@ -1,0 +1,19 @@
+﻿[{
+    "EmployeeId": "1",
+    "firstname": "Misko",
+    "lastname": "Havery",
+    "company": "Google",
+    "project": "AngularJS"
+}, {
+    "EmployeeId": "2",
+    "firstname": "Itay",
+    "lastname": "Herskovits",
+    "company": "Backand",
+    "project": "Backand.REST"
+}, {
+    "EmployeeId": "3",
+    "firstname": "Relly",
+    "lastname": "Rivlin",
+    "company": "Backand",
+    "project": "Backand.AngularJS"
+}]
